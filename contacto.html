@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hospital Privado - Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+<header class="header">
+    <div class="header__logo">
+        <img src="img/logo-02.png" alt="Logo del hospital">
+    </div>
+    <button class="header__menu-toggle" aria-label="Abrir menú">
+        <i class="fas fa-bars"></i>
+    </button>
+    <nav class="header__nav">
+        <ul class="header__nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="equipo.html">Equipo Médico</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><button class="header__cta-button" id="btnReservarCita">Reservar Cita</button></li>
+
+        </ul>
+    </nav>
+</header>
+
+
+    <main>
+        <section class="contacto">
+            <h1>Contáctanos</h1>
+            <p>Si tienes alguna pregunta o deseas más información, <br>por favor completa el siguiente formulario:</p>
+
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section class="ubicacion">
+            <h2>¿Dónde estamos?</h2>
+            <p>Encuentranos a dos cuadras del metro escuela militar</p>
+        
+            <div class="mapa">
+                <iframe <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.3713756101183!2d-70.58563497471194!3d-33.41356092340421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf26f6e502d9%3A0xbf15b834731ec7c9!2sMetro%20Escuela%20Militar!5e0!3m2!1ses-419!2scl!4v1729434196797!5m2!1ses-419!2scl"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenido">
+            <ul class="footer__enlaces">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="equipo.html">Equipo Médico</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="footer__info-contacto">
+                <p>Escríbenos a: serviciohospital@hospitalnuevavida.cl</p>
+                <p>Fono: +569 12345678</p>
+                <p>Santiago, Chile</p>
+            </div>
+            <p class="footer__redes-titulo">Síguenos en nuestras redes sociales</p>
+            <div class="footer__redes-sociales">
+                <a href="https://www.facebook.com" target="_blank" class="footer__redes-icono"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="footer__redes-icono"><i
+                        class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="footer__redes-icono"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modalReservarCita" class="modal">
+        <div class="modal__content">
+            <span class="modal__close" id="closeModal">&times;</span>
+            <h2 class="modal__title">Reservar una Cita</h2>
+            <form id="reservationForm">
+                <label for="name">Nombre Completo:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="date">Fecha de la Cita:</label>
+                <input type="date" id="date" name="date" required>
+    
+                <label for="notes">Notas Adicionales:</label>
+                <textarea id="notes" name="notes" rows="4"></textarea>
+    
+                <button type="submit" class="btn-submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js" defer></script>
+
+
+
+</body>
+
+</html>

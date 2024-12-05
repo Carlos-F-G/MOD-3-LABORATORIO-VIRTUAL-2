@@ -1,0 +1,15 @@
+{
+  "name": "hospital-web---evaluacion-taller-2---copia",
+  "version": "1.0.0",
+  "description": "¿Qué es el event loop en JavaScript?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.81.0"
+  }
+}
