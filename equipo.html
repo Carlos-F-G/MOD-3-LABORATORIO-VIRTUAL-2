@@ -121,7 +121,7 @@
 
 
     <script type="module">
-        import { calcularHorasTotales } from './scripts/horasConsulta.js';
+        import { calcularHorasTotales } from './js/horasConsulta.js';
 
         // Ejemplo de datos
         const horas = [4, 5, 6, 3, 7];
@@ -129,7 +129,7 @@
     </script>
 
     <script type="module">
-        import { calcularCostoFinal } from './scripts/descuentos.js';
+        import { calcularCostoFinal } from './js/descuentos.js';
 
         // Ejemplo de uso
         console.log('Costo final con descuento:', calcularCostoFinal(10, 50)); // Muestra 450
@@ -137,8 +137,41 @@
 
 
 
-    <script src="js/main.js" defer></script>
+    
+
+
     <script src="js/doctor.js"></script>
+    <script type="module" src="./js/horasConsulta.js"></script>
+    <script type="module" src="./js/descuentos.js"></script>
+
+    <script type="module">
+        import { calcularHorasTotales } from './js/horasConsulta.js';
+
+        // Ejemplo de datos: horas trabajadas cada día de la semana
+        const horasDoctor = [4, 5, 6, 3, 7, 4, 5]; // Horas por día
+
+        // Calcular las horas totales
+        console.log('Horas totales de consulta del doctor:', calcularHorasTotales(horasDoctor)); // Muestra 34 en la consola
+    </script>
+
+
+    <!-- composicion de funciones -->
+
+    <script type="module">
+        import { calcularCostoFinal } from './js/descuentos.js';
+
+        // Ejemplo de uso
+        const consultas = 10;
+        const precioPorConsulta = 50; // Precio base por consulta
+        console.log(
+            'Costo final con descuento:',
+            calcularCostoFinal(consultas, precioPorConsulta)
+        ); // Muestra 450 en la consola
+    </script>
+
+    <script type="module" src="js/main.js" defer></script>
+
+
 </body>
 
 </html>

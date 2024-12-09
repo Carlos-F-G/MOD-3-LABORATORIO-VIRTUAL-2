@@ -1,0 +1,21 @@
+@use 'base/base';
+@use 'abstracts/variables';
+@use 'layout/header';
+@use 'layout/nav';
+@use 'layout/footer';
+@use 'components/bienvenida';
+@use 'components/testimonios';
+@use 'components/equipo';
+@use 'components/doctor-info';
+@use 'pages/contacto';
+@use 'components/modal';
+@use 'components/servicios';
+@use "components/doctor-card";
+
+
+
+
+
+@media (max-width: 780px) {
+
+}

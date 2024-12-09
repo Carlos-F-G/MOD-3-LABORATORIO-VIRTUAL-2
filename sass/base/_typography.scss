@@ -1,0 +1,19 @@
+
+
+@use 'abstracts/variables';
+
+body {
+    font-family: variables.$font-family-base;
+    font-size: variables.$font-size-base;
+    color: variables.$text-color;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: variables.$primary-color;
+}

@@ -1,0 +1,17 @@
+.doctor-info {
+    text-align: center;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+
+    &__name {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    &__detail {
+        font-size: 1rem;
+        color: #555;
+        margin: 5px 0;
+    }
+}

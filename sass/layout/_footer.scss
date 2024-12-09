@@ -1,0 +1,85 @@
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+
+    &__contenido {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    &__enlaces {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 20px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+
+        li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #ccc;
+            }
+        }
+    }
+
+    &__info-contacto {
+        font-size: 1rem;
+        margin: 20px 0;
+        line-height: 1.5;
+    }
+
+    &__redes-titulo {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    &__redes-sociales {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    &__redes-icono {
+        font-size: 1.5rem;
+        color: #ffffff;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: #ccc;
+        }
+    }
+}
+
+
+// aplicacion de bootstrap para footer.scss//
+
+
+@media (max-width: 780px) {
+    .footer__enlaces {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer__info {
+        font-size: 0.9rem;
+    }
+
+    .footer__redes-sociales {
+        gap: 15px;
+    }
+
+    .footer__redes-icono {
+        font-size: 1.5rem;
+    }
+}
