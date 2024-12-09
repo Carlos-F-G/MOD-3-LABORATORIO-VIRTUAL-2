@@ -1,4 +1,4 @@
-// --- Modal: Reservar Cita ---
+
 export const manejarModal = () => {
   const btnReservarCita = document.getElementById("btnReservarCita");
   const modal = document.getElementById("modalReservarCita");
