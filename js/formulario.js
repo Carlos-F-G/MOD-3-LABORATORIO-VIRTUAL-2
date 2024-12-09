@@ -1,4 +1,4 @@
-// --- Manejo del Formulario de Contacto ---
+
 export const manejarFormulario = () => {
   const form = document.querySelector("#contactForm");
 
