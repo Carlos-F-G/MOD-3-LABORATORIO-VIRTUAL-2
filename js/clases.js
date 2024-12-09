@@ -1,9 +1,9 @@
-// Clase base Doctor
+
 class Doctor {
   constructor(nombre, especialidad, experiencia) {
     this.nombre = nombre;
     this.especialidad = especialidad;
-    this.experiencia = experiencia; // años de experiencia
+    this.experiencia = experiencia; 
   }
 
   obtenerDetalles() {
@@ -14,7 +14,7 @@ class Doctor {
 // Subclase Cirujano
 class Cirujano extends Doctor {
   constructor(nombre, especialidad, experiencia, especializacionQuirurgica) {
-    super(nombre, especialidad, experiencia); // Heredar propiedades
+    super(nombre, especialidad, experiencia);
     this.especializacionQuirurgica = especializacionQuirurgica;
   }
 
