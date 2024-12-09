@@ -1,4 +1,3 @@
-// --- Manejo del Menú ---
 export const manejarMenu = () => {
   const menuToggle = document.querySelector(".header__menu-toggle");
   const header = document.querySelector(".header");
