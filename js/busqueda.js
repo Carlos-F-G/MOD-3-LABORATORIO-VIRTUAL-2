@@ -1,4 +1,4 @@
-// --- Búsqueda de Servicios ---
+
 export const manejarBusqueda = () => {
   const inputBusqueda = document.getElementById("busqueda");
   const listaServicios = document.getElementById("lista-servicios");
@@ -10,7 +10,7 @@ export const manejarBusqueda = () => {
     ];
 
     const renderizarServicios = (filtro = "") => {
-      listaServicios.innerHTML = ""; // Limpiar lista
+      listaServicios.innerHTML = ""; 
       const serviciosFiltrados = servicios.filter((servicio) =>
         servicio.nombre.toLowerCase().includes(filtro.toLowerCase())
       );
