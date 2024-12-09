@@ -1,6 +1,6 @@
 # Hospital Nueva Vida - Sitio Web
 
-Este proyecto implementa un sistema para el sitio web del Hospital Nueva Vida, integrando tres paradigmas de programación en JavaScript: funcional, orientada a eventos y orientada a objetos. A continuación, se describen los puntos implementados hasta el momento.
+En esta parte del proyecto hemos integrado tres paradigmas de programación en JavaScript: funcional, orientada a eventos y orientada a objetos. A continuación, se describen los puntos implementados hasta el momento.
 
 ---
 
@@ -31,17 +31,24 @@ Este proyecto implementa un sistema para el sitio web del Hospital Nueva Vida, i
   - La subclase `Cirujano` extiende la clase base y sobrescribe el método para incluir información adicional sobre especialización quirúrgica.
 - **Polimorfismo:** Se aplicó sobrescritura de métodos en la subclase `Cirujano`.
 
-### Archivos relacionados:
+- ### Archivos relacionados:
 - `clases.js`
 
----
 
-## Próximos pasos:
-1. Completar las implementaciones de recursión, composición de funciones y encapsulamiento en programación funcional y POO.
-2. Añadir eventos personalizados y manejar asincronía con `async/await` y `try/catch`.
-3. Actualizar esta documentación con las implementaciones restantes.
 
----
+
+### **Tecnologías Usadas**
+
+- HTML: Para la estructura de la página.
+- CSS/SASS: Para los estilos y diseño visual.
+- JavaScript (ES6): Para la lógica de la aplicación y manejo de eventos.
+- JSON: Para gestionar y manipular datos de los doctores.
+- DOM (Document Object Model): Para la interacción dinámica con la página.
+- Consola del Navegador: Para pruebas y depuración.
+
+Carlos Farias Galdames
+
+
 
 
 
