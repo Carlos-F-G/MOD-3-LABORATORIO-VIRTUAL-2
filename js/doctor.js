@@ -43,8 +43,8 @@ const doctors = [
 
 const clonedDoctors = [...doctors];
 clonedDoctors[0].name = "Dr. Clonado Pérez";
-console.log("Doctores Originales:", doctors[0].name); // Dr. Juan Pérez
-console.log("Doctores Clonados:", clonedDoctors[0].name); // Dr. Clonado Pérez
+console.log("Doctores Originales:", doctors[0].name); 
+console.log("Doctores Clonados:", clonedDoctors[0].name);
 
 
 const additionalData = [
